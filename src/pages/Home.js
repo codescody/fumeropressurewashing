@@ -1,3 +1,8 @@
 export default function Home() {
-    return <div>Fumero Pressure Washing</div>
+  return (
+    <div className="home-page">
+      <div>Information</div>
+      <div>Quote Container</div>
+    </div>
+  );
 }
