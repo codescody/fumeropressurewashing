@@ -7,18 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.header-component {
+.header-wrapper {
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
   padding-left: 10%;
   padding-right: 10%;
-  height: 5rem;
+  height: 10vh;
   background-color: rgb(138, 161, 153);
 }
 
 .home-page {
-  height: 95vh;
+  height: 90vh;
   background-color: rgb(79, 147, 187);
+}
+
+.footer-wrapper {
+  display: flex;
+  height: 10vh;
+  background-color: rgb(130, 158, 230);
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }

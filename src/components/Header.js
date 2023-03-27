@@ -1,10 +1,10 @@
 export default function Header() {
   return (
-    <div className="header-component">
+    <div className="header-wrapper">
       <div>Fumero Pressure Washing</div>
-      <div>Email</div>
       <div>Reviews</div>
-      <div>Contact</div>
+      <div>Email</div>
+      <div>Call</div>
     </div>
   );
 }
