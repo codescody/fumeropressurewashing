@@ -2,6 +2,7 @@ import { AiFillPhone } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import { AiFillStar } from "react-icons/ai";
 import { IoIosChatboxes } from "react-icons/io"
+import Reviews from "../pages/Reviews";
 
 export default function Header() {
   return (
@@ -9,7 +10,7 @@ export default function Header() {
       <h1 className="pure-cleaning-logo"><span>PURE</span> CLEANING</h1>
       <ul className="header-nav-links">
         <li>
-          <a href="/">
+          <a href=".reviews-container">
             <AiFillStar />
             <h6>Reviews</h6>
           </a>

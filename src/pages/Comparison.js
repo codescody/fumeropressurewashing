@@ -23,24 +23,27 @@ export default function Comparison() {
   };
 
   return (
-    <div className="comparison-container">
-      <div className="slider">
-        <ReactBeforeSliderComponent
-          firstImage={FIRST_IMAGE}
-          secondImage={SECOND_IMAGE}
-        />
-      </div>
-      <div className="slider">
-        <ReactBeforeSliderComponent
-          firstImage={THIRD_IMAGE}
-          secondImage={FOURTH_IMAGE}
-        />
-      </div>
-      <div className="slider">
-        <ReactBeforeSliderComponent
-          firstImage={FIFTH_IMAGE}
-          secondImage={SIXTH_IMAGE}
-        />
+    <div className="results-container">
+        <section className="slider-title">SEE THE RESULTS</section>
+      <div className="comparison-container">
+        <div className="slider">
+          <ReactBeforeSliderComponent
+            firstImage={FIRST_IMAGE}
+            secondImage={SECOND_IMAGE}
+          />
+        </div>
+        <div className="slider">
+          <ReactBeforeSliderComponent
+            firstImage={THIRD_IMAGE}
+            secondImage={FOURTH_IMAGE}
+          />
+        </div>
+        <div className="slider">
+          <ReactBeforeSliderComponent
+            firstImage={FIFTH_IMAGE}
+            secondImage={SIXTH_IMAGE}
+          />
+        </div>
       </div>
     </div>
   );

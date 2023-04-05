@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Comparison from './pages/Comparison';
 import Reviews from './pages/Reviews';
 import Footer from './components/Footer';
+import Quote from './pages/Quote';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Comparison />
       <Reviews />
+      <Quote />
       <Footer />
     </div>
   );
