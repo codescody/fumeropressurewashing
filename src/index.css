@@ -18,36 +18,65 @@ body {
   vertical-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
-  height: 10vh;
-  background-color: rgb(33, 118, 139);
-  color: rgb(220, 235, 242);
+  height: 7rem;
+  background-color: rgb(25, 73, 99);
+  color: rgb(236, 241, 243);
 }
 
 .header-nav-links {
   display: flex;
   gap: 2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-top: 3rem;
+  letter-spacing: 1px;
+}
+
+span {
+  color: rgb(28, 198, 245);
 }
 
 h1 {
   font-family: "Roboto";
+  font-size: 1.2rem;
 }
 
 h6 {
   margin-top: 0;
 }
 
-.home-page {
-  height: 90vh;
-  background-color: rgb(79, 147, 187);
+.top-banner-container {
+  height: 60vh;
+  background-color: rgba(22, 96, 136, 0.6);
+  /* background-image: url(https://i.imgur.com/1nzCcMJ.jpg); */
+  background-size: cover;
+}
+
+.comparison-container {
+  height: 40vh;
+  background-color: rgb(100, 209, 233);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.slider {
+  border: 10px solid #fffbfb;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.reviews-container {
+  height: 80vh
 }
 
 .footer-wrapper {
   display: flex;
   height: 10vh;
-  background-color: rgb(130, 158, 230);
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   align-items: center;
   padding-left: 10%;

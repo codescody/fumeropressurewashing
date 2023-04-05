@@ -1,6 +1,8 @@
 import './App.css';
-import Home from './pages/Home';
 import Header from './components/Header';
+import Home from './pages/Home';
+import Comparison from './pages/Comparison';
+import Reviews from './pages/Reviews';
 import Footer from './components/Footer';
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <Home />
+      <Comparison />
+      <Reviews />
       <Footer />
     </div>
   );

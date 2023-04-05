@@ -6,7 +6,7 @@ import { IoIosChatboxes } from "react-icons/io"
 export default function Header() {
   return (
     <nav className="header-wrapper">
-      <h1 className="pure-cleaning-logo">Pure Cleaning</h1>
+      <h1 className="pure-cleaning-logo"><span>PURE</span> CLEANING</h1>
       <ul className="header-nav-links">
         <li>
           <a href="/">
