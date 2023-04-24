@@ -1,8 +1,6 @@
 import { AiFillPhone } from "react-icons/ai";
 import { HiEnvelope } from "react-icons/hi2";
 import { AiFillStar } from "react-icons/ai";
-import { IoIosChatboxes } from "react-icons/io"
-import Reviews from "../pages/Reviews";
 
 export default function Header() {
   return (
@@ -10,7 +8,7 @@ export default function Header() {
       <h1 className="pure-cleaning-logo"><span>PURE</span> CLEANING</h1>
       <ul className="header-nav-links">
         <li>
-          <a href="https://www.angi.com/companylist/us/fl/ft-lauderdale/pure-cleaning-pressure-cleaning-reviews-2354397.htm" target="_blank"> 
+          <a href="https://www.angi.com/companylist/us/fl/ft-lauderdale/pure-cleaning-pressure-cleaning-reviews-2354397.htm" target="_blank" rel="noreferrer"> 
             <AiFillStar />
             <h6>Reviews</h6>
           </a>

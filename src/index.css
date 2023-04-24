@@ -48,6 +48,7 @@ h6 {
 .top-banner-container {
   height: 90vh;
   background-color: rgb(47, 143, 194);
+  color: #fffbfb;
   /* background-image: url(https://i.imgur.com/1nzCcMJ.jpg);
   background-size: cover; */
   display: flex;
@@ -62,15 +63,11 @@ h6 {
 }
 
 .pressure-washing-title {
-  color: #fffbfb;
   font-size: 2rem;
   font-weight: 900;
 }
 .pressure-washing-quote {
-  color: #fffbfb;
   margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: 400;
 }
 
 .comparison-container {
@@ -107,6 +104,7 @@ h6 {
   padding-top: 100px;
   height: 10vh;
   background-color: rgb(6, 58, 86);
+  color: #fffbfb;
 }
 
 .slider {
@@ -121,6 +119,21 @@ h6 {
   height: 100vh;
   background-color: rgb(36, 136, 136);
 }
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 7%;
+  padding-right: 10%;
+  height: 10vh;
+  background-color: #337dae;
+  color: white;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
 .quote-container {
   height: 85vh;
   background-color: rgb(232, 239, 241);
@@ -136,9 +149,10 @@ h6 {
   padding-right: 10%;
   height: 10vh;
   background-color: #337dae;
-  color: rgb(220, 231, 235);
+  color: #fffbfb;
 }
-.get-in-touch {
+
+.footer-links {
   display: flex;
   gap: 2rem;
   font-size: 1.1rem;
