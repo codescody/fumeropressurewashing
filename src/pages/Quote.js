@@ -74,7 +74,8 @@ export default function Quote() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <div className='quote-container'>
+    <form className='quote-form' ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input
         type="text"
@@ -97,5 +98,6 @@ export default function Quote() {
       />
       <input type="submit" value="Send" />
     </form>
+    </div>
   );
 };

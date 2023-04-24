@@ -5,8 +5,10 @@ export default function Contact() {
     <div className="contact-wrapper">
       <section>Family Owned and Operated, Professional, Licensed, and Insured</section>
       <section>
+        <a href="tel:example">
         <FiPhone />
         &nbsp; (954) 951-4883
+        </a>
       </section>
     </div>
   );
