@@ -6,7 +6,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Public Sans', sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -54,15 +53,29 @@ h6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  gap: 2rem;
+  align-items: left;
+  vertical-align: center;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 4rem;
+}
+
+.pressure-washing-title {
+  color: #fffbfb;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.pressure-washing-quote {
+  color: #fffbfb;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .comparison-container {
   height: 40vh;
-  background-color: rgb(100, 209, 233);
+  background-color: rgb(6, 58, 86);
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -71,28 +84,29 @@ h6 {
   padding-right: 10%;
 }
 
-.quote-link {
+.contact-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   color: rgb(25, 73, 99);
-  margin-left: 200px;
-  margin-right: 20px;
   background-color: #fffbfb;
-  border: 10px solid #fffbfb;
+  border: 2px solid #337dae;
   border-radius: 4rem;
+  margin-right: 2rem;
+  width: 200px;
 }
 
-.call-link {
-  color: rgb(25, 73, 99);
-  background-color: #fffbfb;
-  border: 10px solid #fffbfb;
-  border-radius: 4rem;
+.phone-icon {
+  transform: rotate(90deg);
 }
+
 .slider-title {
   display: flex;
   justify-content: center;
   vertical-align: center;
   padding-top: 100px;
   height: 10vh;
-  background-color: rgb(100, 209, 233);
+  background-color: rgb(6, 58, 86);
 }
 
 .slider {
@@ -109,15 +123,24 @@ h6 {
 }
 .quote-container {
   height: 85vh;
-  background-color: rgb(28, 198, 245);
+  background-color: rgb(232, 239, 241);
 }
 
 .footer-wrapper {
   display: flex;
-  height: 10vh;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   align-items: center;
+  vertical-align: center;
   padding-left: 10%;
   padding-right: 10%;
+  height: 10vh;
+  background-color: #337dae;
+  color: rgb(220, 231, 235);
+}
+.get-in-touch {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
 }

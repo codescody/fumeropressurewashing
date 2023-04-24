@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Home />
       <Comparison />
-      <Reviews />
+      {/* <Reviews /> */}
       <Quote />
       <Footer />
     </div>
