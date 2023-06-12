@@ -5,6 +5,7 @@ import Comparison from "../pages/Comparison"
 import Contact from "../pages/Contact"
 import Quote from "../pages/Quote"
 import Footer from "./Footer"
+import Reviews from "../pages/Reviews"
 
 export default function Main() {
     return (
@@ -13,8 +14,9 @@ export default function Main() {
       <Home />
       <Services />
       <Comparison />
-      <Contact />
       <Quote />
+      <Contact />
+      <Reviews />
       <Footer />
     </div>
     )

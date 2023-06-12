@@ -21,10 +21,28 @@ export default function Comparison() {
   const SIXTH_IMAGE = {
     imageUrl: "https://i.imgur.com/X6xAAnF.jpg",
   };
+  const SEVENTH_IMAGE = {
+    imageUrl: "https://imgur.com/bPv7zi7.jpg",
+  };
+  const EIGHTH_IMAGE = {
+    imageUrl: "https://imgur.com/xG29OZM.jpg",
+  };
+  const NINTH_IMAGE = {
+    imageUrl: "https://imgur.com/gprkyAX.jpg",
+  };
+  const TENTH_IMAGE = {
+    imageUrl: "https://imgur.com/LCeJyBG.jpg",
+  };
+  const ELEVENTH_IMAGE = {
+    imageUrl: "https://imgur.com/qm4JMFA.jpg",
+  };
+  const TWELFTH_IMAGE = {
+    imageUrl: "https://imgur.com/ArFhDAL.jpg",
+  };
 
   return (
     <div className="results-container">
-        <section className="slider-title">SEE THE RESULTS</section>
+      <section className="slider-title">SEE THE RESULTS</section>
       <div className="comparison-container">
         <div className="slider">
           <ReactBeforeSliderComponent
@@ -42,6 +60,24 @@ export default function Comparison() {
           <ReactBeforeSliderComponent
             firstImage={FIFTH_IMAGE}
             secondImage={SIXTH_IMAGE}
+          />
+        </div>
+        <div className="slider">
+          <ReactBeforeSliderComponent
+            firstImage={SEVENTH_IMAGE}
+            secondImage={EIGHTH_IMAGE}
+          />
+        </div>
+        <div className="slider">
+          <ReactBeforeSliderComponent
+            firstImage={NINTH_IMAGE}
+            secondImage={TENTH_IMAGE}
+          />
+        </div>
+        <div className="slider">
+          <ReactBeforeSliderComponent
+            firstImage={ELEVENTH_IMAGE}
+            secondImage={TWELFTH_IMAGE}
           />
         </div>
       </div>

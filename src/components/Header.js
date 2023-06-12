@@ -5,10 +5,18 @@ import { AiFillStar } from "react-icons/ai";
 export default function Header() {
   return (
     <nav className="header-wrapper">
-      <h1 className="pure-cleaning-logo"><span>PURE</span> CLEANING</h1>
+      <div>
+        <h1 className="pure-cleaning-logo">
+          <span>PURE</span> CLEANING
+        </h1>
+      </div>
       <ul className="header-nav-links">
         <li>
-          <a href="https://www.angi.com/companylist/us/fl/ft-lauderdale/pure-cleaning-pressure-cleaning-reviews-2354397.htm" target="_blank" rel="noreferrer"> 
+          <a
+            href="https://www.angi.com/companylist/us/fl/ft-lauderdale/pure-cleaning-pressure-cleaning-reviews-2354397.htm"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillStar />
             <h6>Reviews</h6>
           </a>
@@ -20,7 +28,7 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <a href="tel:example">
+          <a href="tel:+19543892642">
             <AiFillPhone />
             <h6>Contact</h6>
           </a>
