@@ -14,9 +14,9 @@ export default function Main() {
       <Home />
       <Services />
       <Comparison />
-      <Quote />
-      <Contact />
       <Reviews />
+      <Contact />
+      <Quote />
       <Footer />
     </div>
     )

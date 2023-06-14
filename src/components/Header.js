@@ -1,6 +1,5 @@
-import { AiFillPhone } from "react-icons/ai";
+import { AiFillInstagram, AiFillPhone } from "react-icons/ai";
 import { HiEnvelope } from "react-icons/hi2";
-import { AiFillStar } from "react-icons/ai";
 
 export default function Header() {
   return (
@@ -13,16 +12,16 @@ export default function Header() {
       <ul className="header-nav-links">
         <li>
           <a
-            href="https://www.angi.com/companylist/us/fl/ft-lauderdale/pure-cleaning-pressure-cleaning-reviews-2354397.htm"
+            href="https://www.instagram.com/purepressurepowercleaning/"
             target="_blank"
             rel="noreferrer"
           >
-            <AiFillStar />
-            <h6>Reviews</h6>
+            <AiFillInstagram />
+            <h6>Social</h6>
           </a>
         </li>
         <li>
-          <a href="mailto: abc@example.com">
+          <a href="mailto: pure_cleaning@live.com">
             <HiEnvelope className="email-icon" />
             <h6>Email</h6>
           </a>

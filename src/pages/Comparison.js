@@ -42,7 +42,7 @@ export default function Comparison() {
 
   return (
     <div className="results-container">
-      <section className="slider-title">SEE THE RESULTS</section>
+      <section className="slider-title">See the Results</section>
       <div className="comparison-container">
         <div className="slider">
           <ReactBeforeSliderComponent
