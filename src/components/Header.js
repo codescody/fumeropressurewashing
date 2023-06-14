@@ -12,7 +12,7 @@ export default function Header() {
       <ul className="header-nav-links">
         <li>
           <a
-            href="https://www.instagram.com/purepressurepowercleaning/"
+            href="https://www.instagram.com/purecleaningpressurecleaning/"
             target="_blank"
             rel="noreferrer"
           >
