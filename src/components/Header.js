@@ -5,8 +5,8 @@ export default function Header() {
   return (
     <nav className="header-wrapper">
       <div>
-        <h1 className="pure-cleaning-logo">
-          <span>PURE</span> CLEANING
+        <h1 className="logo">
+        <img className="logo" src="https://i.imgur.com/1lIyuLS.png"></img>
         </h1>
       </div>
       <ul className="header-nav-links">
@@ -29,7 +29,7 @@ export default function Header() {
         <li>
           <a href="tel:+19543892642">
             <AiFillPhone />
-            <h6>Contact</h6>
+            <h6>Call</h6>
           </a>
         </li>
       </ul>

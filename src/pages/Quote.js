@@ -44,7 +44,9 @@ export default function Quote() {
   };
 
   return (
-    <div className='quote-container'>
+    <div>
+      <div className='quote-header'>Reach Out to Us for a Quick Quote</div>
+      <div className='quote-container'>
     <form className='quote-form' ref={form} onSubmit={sendEmail}>
       <label>Full Name:</label>
       <input
@@ -76,6 +78,7 @@ export default function Quote() {
       <input className="send-button" type="submit" value="Send" />
     </form>
     <image url="https://imgur.com/UJ4w2Eg.jpg"></image>
+    </div>
     </div>
   );
 };

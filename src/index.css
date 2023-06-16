@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Public+Sans:wght@300&family=Roboto:wght@500&display=swap');
-
-
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Public Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,7 +12,7 @@ body {
   text-align: center;
   align-items: center;
   vertical-align: center;
-  padding-left: 2rem;
+  padding: 2rem;
   padding-right: 2rem;
   height: 10vh;
   background-color: rgb(25, 73, 99);
@@ -36,7 +32,6 @@ span {
 }
 
 h1 {
-  font-family: "Public Sans";
   font-weight: 900;
   font-size: 1.2rem;
 }
@@ -143,8 +138,8 @@ h6 {
   color: white;
   font-size: larger;
   font-weight: 800;
-  flex-basis: calc(33.33% - 10px); /* Adjust as needed */
-  margin: 5px; /* Adjust as needed */
+  flex-basis: calc(33.33% - 10px); 
+  margin: 5px; 
   border: 1px solid #34afed;
   border-radius: 40px;
   height: 20rem;
@@ -161,8 +156,8 @@ h6 {
   color: white;
   font-size: larger;
   font-weight: 800;
-  flex-basis: calc(33.33% - 10px); /* Adjust as needed */
-  margin: 5px; /* Adjust as needed */
+  flex-basis: calc(33.33% - 10px); 
+  margin: 5px; 
   border: 1px solid #34afed;
   border-radius: 40px;
   height: 20rem;
@@ -227,6 +222,15 @@ h6 {
   font-weight: 600;
 }
 
+.review-header {
+  color:black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(232, 239, 241);
+  padding: 4rem;
+}
+
 .quote-container {
   display: flex;
   justify-content: center;
@@ -269,6 +273,15 @@ textarea {
   padding: .5rem;
 }
 
+.quote-header {
+  color:black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(232, 239, 241);
+  padding: 3.5rem;
+}
+
 .angis-reviews {
   display: flex;
   justify-content: center;
@@ -301,6 +314,10 @@ textarea {
   height: 10vh;
   background-color: rgb(6, 58, 86);
   color: #fffbfb;
+}
+
+.logo {
+  height: 6rem;
 }
 
 .footer-links {
