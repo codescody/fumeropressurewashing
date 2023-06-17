@@ -25,6 +25,13 @@ body {
   font-size: 1.1rem;
   margin-top: 3rem;
   letter-spacing: 1px;
+  margin-right: 3rem;
+}
+
+@media (max-width: 1080px) {
+  .header-wrapper {
+    padding: 14px;
+  }
 }
 
 span {
