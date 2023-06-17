@@ -7,7 +7,7 @@ export default function Contact() {
       <section>
         <a href="tel:example">
         <FiPhone />
-        &nbsp; (954) 951-4883
+        &nbsp; (954) 389-2642
         </a>
       </section>
     </div>

@@ -45,7 +45,7 @@ export default function Quote() {
 
   return (
     <div>
-      <div className='quote-header'>Reach Out to Us for a Quick Quote</div>
+      <div className='quote-header'>Receive a Direct Quote</div>
       <div className='quote-container'>
     <form className='quote-form' ref={form} onSubmit={sendEmail}>
       <label>Full Name:</label>

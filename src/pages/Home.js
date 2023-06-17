@@ -4,7 +4,7 @@ import { HiEnvelope } from "react-icons/hi2";
 export default function Home() {
   return (
     <div className="top-banner-container">
-      <section className="pressure-washing-title"><span>PURE</span> CLEANING POWER WASHING</section>
+      <section className="pressure-washing-title"><span>PURE</span> CLEANING PRESSURE CLEANING</section>
       <section>Family owned and operated in South Florida for over 30 years</section>
       <section className="pressure-washing-quote">Give us a call or email for a quick quote</section>
       <section className="contact-buttons">
